@@ -1,0 +1,348 @@
+body{ 
+  width: 100%;
+  margin: 0 auto;
+  
+}
+.adabarra {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  background-color: whitesmoke;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.adabarra h1 {
+  color: rgb(245, 18, 158);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.adabarra ul {
+  margin-left: 250px;
+  margin-top: 30px;
+ 
+}
+.adabarra a {
+  display:flex;
+  align-items:center;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 90px;
+  
+}
+
+.adabarra  a:hover {
+  color: rgb(211, 20, 138);
+}
+
+.hero {
+  background-image: url(imagenes/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.616);
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  margin-top: 50px;
+}
+
+.hero img{
+  width: 100%;
+}
+
+.hero .textohero h1 {
+  color: white;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.hero .boton button {
+  color: white;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(197, 11, 98);
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.seccion1 {
+  display: flex;
+  padding: 120px;
+  border-top: 20px;
+  align-items: center;
+}
+
+
+.seccion1 .programadora img {
+  object-fit: cover;
+  object-position: 50% 50%;
+  vertical-align: middle;
+  width: 380px;
+  height: 100%;
+  align-items: center;
+}
+
+.seccion1 .textoseccion h1 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 150px;
+}
+
+.seccion1 .textoseccion h1 span {
+  color: rgb(214, 42, 230);
+}
+
+.seccion1 .textoseccion p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 150px;
+}
+.losprogramas {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 800px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(51, 49, 49);
+}
+
+.losprogramas h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.programas {
+  display: flex;
+  color: white;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.programas h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding: 30px 40px 5px;
+  margin-top: 0;
+}
+
+.programas p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 40px;
+  margin-top: 0;
+}
+
+.programas button {
+  background-color: rgb(189, 7, 119);
+  color: white;
+  font-weight: bold;
+  border-style: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 4px;
+  box-shadow: 20px;
+  box-shadow: 1px 2px 6px 2px rgba(0, 0, 0, 0.57);
+  margin-top: 10px;
+}
+
+.programas .front {
+  width: 300px;
+  height: 380px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 13px 3px #000000;
+  margin-right: 60px;
+}
+
+.programas .front h1 {
+  background-image: url(imagenes/front-end.jpg);
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.616);
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 100px;
+  margin-top: 0;
+  border-radius: 7px 7px 0 0;
+}
+.programas .full {
+  width: 300px;
+  height: 380px;
+  border-radius: 10px;
+  box-shadow: 1px 5px 15px 5px #000000;
+  margin-right: 60px;
+}
+
+.programas .full h1 {
+  background-image: url(imagenes/full-stack.jpg);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.616);
+  height: 100px;
+  border-radius: 7px 7px 0 0;
+}
+
+.programas .phyton {
+  width: 300px;
+  height: 380px;
+  border-radius: 10px;
+  box-shadow: 1px 5px 15px 5px #000000;
+}
+
+.programas .phyton h1 {
+  background-image: url(imagenes/python-logo.jpg);
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.616);
+  background-size: 500px;
+  height: 100px;
+  border-radius: 7px 7px 0 0;
+}
+
+.items {
+  display: flex;
+  margin-top: 100px;
+  padding: 50px;
+}
+
+.items ul {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 120px;
+  margin-top: 140px;
+  line-height: 30px;
+}
+
+.items .imagenitem {
+  margin-left: 300px;
+  height: 100px;
+  width: 100px;
+}
+
+.lista {
+  background-color: rgb(219, 89, 231);
+  height: 400px;
+  margin-top: 200px;
+  justify-content: center;
+}
+
+.lista .items2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.lista h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.lista button {
+  color: white;
+  font-size: 25px;
+  background-color: rgb(219, 89, 231);
+  border-style: none;
+  box-shadow: 2px 2px 15px 2px rgba(38, 2, 41, 0.445);
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  margin-left: 45%;
+}
+
+footer {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media(max-width:700px){
+  body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+  }
+  .adabarra{
+    height:35%;
+    flex-direction:column;
+    align-items:center;
+  }
+  .adabarra h1{
+    margin-left:75px;
+  }
+  
+
+  #somos .seccion1 .programadora{
+    display:none;
+  }
+ 
+  .hero img{
+   width: 100%;
+  }
+  #somos #texto p{
+    width:50%;    
+  }
+  .losprogramas{
+    height:1000px;
+  }
+   #programas .programas{
+     display:flex;
+     flex-direction:column;
+     align-itmes:center;
+     
+  }
+  .programas p{
+    display:none;
+  }
+  .programas{
+    margin-top:150px;
+    margin-left:40%;
+  }
+  #programah h1{
+    margin-left:30%;
+    margin-bottom:200px;
+
+  }
+  
+  .programas .front{
+    margin-bottom:20px;
+  }
+  .programas .phyton{
+    margin-top:20px;
+    margin-right:50px;
+  }
+  #caracteristicas .items1 li{
+    width:400px
+  }
+  
+  
+   
+    
+  }
+}
